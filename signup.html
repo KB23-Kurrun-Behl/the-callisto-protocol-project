@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>The Callisto Protocol / Subscribe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- FontAwesome Icons -->
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <script src="https://kit.fontawesome.com/66ea77019f.js" crossorigin="anonymous"></script>
+  <!-- Tab Icon -->
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <!-- Scroll Animation Stylesheet -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-customclass navbar-expand-lg navbar-dark fixed-top" data-aos="fade">
+    <a class="navbar-brand" href="/"><img class="logo" src="images/tcp-logo.png"></img></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="/"><span><u>H</u>OME</span></a></li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="about"><span><u>A</u>BOUT</span></a></li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="media"><span><u>M</u>EDIA</span></a></li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="signup"><span><u>S</u>UBSCRIBE</span></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Newsletter Form -->
+  <form action="/signup" class="form-sign-in" method="post" data-aos="fade-down">
+    <h1 class="h3 sign-up-title mb-3 font-weight-normal">_ SUBSCRIBE</h1>
+    <p class="sign-up-overview mb-3 text-muted">SIGN UP TO RECEIVE NEWS ON THE CALLISTO PROTOCOL</p>
+    <!-- Form Inputs -->
+    <input name="email" type="email" class="form-control top" placeholder="EMAIL" required>
+    <br>
+    <input name="firstName" type="text" class="form-control middle" placeholder="FIRST NAME" required>
+    <br>
+    <input name="lastName" type="text" class="form-control bottom" placeholder="LAST NAME" required>
+    <br><br>
+    <button class="btn subscribe-btn btn-lg btn-primary btn-block" type="submit">SUBSCRIBE</button>
+  </form>
+
+  <!-- Footer Container -->
+  <footer id="footer">
+    <div class="footer-container" data-aos="fade">
+
+      <!-- Developer & Publisher Logo -->
+      <a href="https://sds.com"><img class="sds-logo" src="images/logo-sds.svg" alt="striking-distance-logo"></a>
+      <a href="https://krafton.com/en/"><img class="krafton-logo" src="images/logo-k.png" alt="krafton-logo"></a>
+
+      <!-- Social Media Logos -->
+      <div class="footer-social-media">
+        <a href="https://www.facebook.com/Callistothegame"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://twitter.com/callistothegame"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com/Callistothegame/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.youtube.com/c/strikingdistance"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+
+      <!-- Break Tag (To Create A Newline) -->
+      <br>
+
+      <!-- Extra Footer Links -->
+      <p class="footer-link">PRIVACY POLICY</p>
+      <p class="footer-link">TERMS OF SERVICE</p>
+      <p class="footer-link">PRESS CONTACT</p>
+    </div>
+
+    <!-- Footer Copyright Section -->
+    <p class="footer-copyright">© 2022 Striking Distance Studios, Inc. ALL
+      RIGHTS RESERVED. STRIKING DISTANCE STUDIOS and THE CALLISTO PROTOCOL <br>
+      are trademarks or service marks of Striking Distance Studios, Inc. KRAFTON
+      is a registered trademark or service mark of KRAFTON, Inc.</p>
+  </footer>
+
+  <!-- Required Internal CSS -->
+  <style>
+    body {
+      background-image: url("images/signup-bg.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  </style>
+
+  <!-- Required JavaScript -->
+  <script src="index.js" charset="utf-8"></script>
+
+  <!-- Required Scroll Animation JavaScript -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true,
+      duration: 2000
+    });
+  </script>
+
+</body>
+
+</html>
